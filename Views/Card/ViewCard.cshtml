@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewData["Title"] = "ViewCard";
+}
+
+<h1>ViewCard</h1>
+
+@foreach (var certificateImage in ViewBag.CertificateImages)
+{
+    <div>
+        <img src="data:image/png;base64,@Convert.ToBase64String(certificateImage.Image)" alt="Certificate Image" />
+        <p>Name: @certificateImage.Name</p>
+        <p>Email: @certificateImage.Email</p>
+        <p>Phone Number: @certificateImage.PhoneNumber</p>
+        <p>Watermark: @certificateImage.Watermark</p>
+    </div>
+}
+
+

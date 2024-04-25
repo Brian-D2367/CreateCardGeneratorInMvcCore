@@ -1,0 +1,52 @@
+﻿
+@{
+    ViewData["Title"] = "Card";
+}
+
+<h5>Dummy Card Generator</h5>
+
+<div class="container">
+    <form asp-controller="Card" asp-action="GenerateCertificates" method="post">
+         <button type="submit">Generate Card</button>
+     </form>
+    <div id="certificate-gallery"></div>
+
+    <button id="generate-certificates-btn">Generate Certificates</button>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    $(document).ready(function () {
+        // Attach click event handler to a button with id 'generate-certificates-btn'
+        $('#generate-certificates-btn').click(function () {
+            // Make AJAX call to the GenerateCertificates endpoint
+            $.ajax({
+                url: '/Card/GenerateCertificates', // Replace with your actual controller endpoint
+                type: 'POST',
+                success: function (response) {
+                    // Loop through the array of certificate images
+                    $.each(response, function (index, certificateImage) {
+                        // Create an image element
+                        var img = $('<img>').attr('src', 'data:image/png;base64,' + certificateImage);
+
+                        // Create a link to download the certificate image
+                        var downloadLink = $('<a>').attr('href', 'data:image/png;base64,' + certificateImage)
+                            .attr('download', 'certificate_' + index + '.png')
+                            .text('Download Certificate');
+
+                        // Append the image and download link to a container div
+                        var containerDiv = $('<div>').addClass('certificate-container')
+                            .append(img)
+                            .append(downloadLink);
+
+                        // Append the container div to a target element in your HTML
+                        $('#certificate-gallery').append(containerDiv);
+                    });
+                },
+                error: function (xhr, status, error) {
+                    // Handle error
+                    console.error(error);
+                }
+            });
+        });
+    });
+</script>

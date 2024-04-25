@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Deepak\\LionBridge\\POC\\CreateCards\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D1799315-8824-4BC9-AC0D-43707AE54BDA}|CreateCards.csproj|c:\\deepak\\lionbridge\\poc\\createcards\\controllers\\cardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1799315-8824-4BC9-AC0D-43707AE54BDA}|CreateCards.csproj|solutionrelative:controllers\\cardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1799315-8824-4BC9-AC0D-43707AE54BDA}|CreateCards.csproj|c:\\deepak\\lionbridge\\poc\\createcards\\views\\card\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D1799315-8824-4BC9-AC0D-43707AE54BDA}|CreateCards.csproj|solutionrelative:views\\card\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1799315-8824-4BC9-AC0D-43707AE54BDA}|CreateCards.csproj|c:\\deepak\\lionbridge\\poc\\createcards\\models\\carddetailsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1799315-8824-4BC9-AC0D-43707AE54BDA}|CreateCards.csproj|solutionrelative:models\\carddetailsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1799315-8824-4BC9-AC0D-43707AE54BDA}|CreateCards.csproj|c:\\deepak\\lionbridge\\poc\\createcards\\views\\card\\viewcard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D1799315-8824-4BC9-AC0D-43707AE54BDA}|CreateCards.csproj|solutionrelative:views\\card\\viewcard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Deepak.Yadav\\AppData\\Local\\Temp\\.vsdbgsrc\\de3c475d5d8ddfef73a8b47138c6692ac88195c0c2d9ee08c7dab15e957ac8b7\\ResourceInvoker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ResourceInvoker.cs",
+              "DocumentMoniker": "C:\\Users\\Deepak.Yadav\\AppData\\Local\\Temp\\.vsdbgsrc\\de3c475d5d8ddfef73a8b47138c6692ac88195c0c2d9ee08c7dab15e957ac8b7\\ResourceInvoker.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\Deepak.Yadav\\AppData\\Local\\Temp\\.vsdbgsrc\\de3c475d5d8ddfef73a8b47138c6692ac88195c0c2d9ee08c7dab15e957ac8b7\\ResourceInvoker.cs",
+              "ToolTip": "C:\\Users\\Deepak.Yadav\\AppData\\Local\\Temp\\.vsdbgsrc\\de3c475d5d8ddfef73a8b47138c6692ac88195c0c2d9ee08c7dab15e957ac8b7\\ResourceInvoker.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\Deepak.Yadav\\AppData\\Local\\Temp\\.vsdbgsrc\\de3c475d5d8ddfef73a8b47138c6692ac88195c0c2d9ee08c7dab15e957ac8b7\\ResourceInvoker.cs [Read Only]",
+              "ViewState": "AQIAAJIBAAAAAAAAAAD4v6ABAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T07:29:21.033Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Deepak\\LionBridge\\POC\\CreateCards\\Views\\Card\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Card\\Index.cshtml",
+              "ToolTip": "C:\\Deepak\\LionBridge\\POC\\CreateCards\\Views\\Card\\Index.cshtml",
+              "RelativeToolTip": "Views\\Card\\Index.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAA0AAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-24T06:53:00.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CardDetailsModel.cs",
+              "DocumentMoniker": "C:\\Deepak\\LionBridge\\POC\\CreateCards\\Models\\CardDetailsModel.cs",
+              "RelativeDocumentMoniker": "Models\\CardDetailsModel.cs",
+              "ToolTip": "C:\\Deepak\\LionBridge\\POC\\CreateCards\\Models\\CardDetailsModel.cs",
+              "RelativeToolTip": "Models\\CardDetailsModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T06:40:03.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CardController.cs",
+              "DocumentMoniker": "C:\\Deepak\\LionBridge\\POC\\CreateCards\\Controllers\\CardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CardController.cs",
+              "ToolTip": "C:\\Deepak\\LionBridge\\POC\\CreateCards\\Controllers\\CardController.cs",
+              "RelativeToolTip": "Controllers\\CardController.cs",
+              "ViewState": "AQIAAAEBAAAAAAAAAAAqwBIBAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T06:38:10.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ViewCard.cshtml",
+              "DocumentMoniker": "C:\\Deepak\\LionBridge\\POC\\CreateCards\\Views\\Card\\ViewCard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Card\\ViewCard.cshtml",
+              "ToolTip": "C:\\Deepak\\LionBridge\\POC\\CreateCards\\Views\\Card\\ViewCard.cshtml",
+              "RelativeToolTip": "Views\\Card\\ViewCard.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-24T07:29:56.18Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
